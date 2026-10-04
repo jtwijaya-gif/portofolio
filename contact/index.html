@@ -1,9 +1,42 @@
-<title>Contact</title>
+<!DOCTYPE html>
+<html lang="en">
 
-<h1>Contact</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
 
-<nav>
-    <a href="../">Home</a>
-    <a href="../projects/">Projects</a>
-    <a href="./">Contact</a>
-  </nav>
+<body>
+    <nav>
+        <a href="../">Home</a>
+        <a href="../projects/">Projects</a>
+        <a href="./">Contact</a>
+        <a href="../resume/">Resume</a>
+        <a href="https://jtwijaya-gif.github.io/portofolio/" target="_blank">GitHub</a>
+    </nav>
+
+    <h1>Contact</h1>
+
+    <form action="mailto:YOUR_EMAIL" method="POST" enctype="text/plain">
+        <label>
+            Email:
+            <input name="email" type="email">
+        </label>
+    
+        <label>
+            Subject:
+            <input name="subject">
+        </label>
+    
+        <label>
+            Message:
+            <textarea name="body"></textarea>
+        </label>
+
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
